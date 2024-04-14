@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Multiplication Table</title>
+        </head>
+        <body>
+            <h1> What Multiplication Table Do You Want?</h1>
+            <br>
+            <br>
+            <p id="m"></p>
+        </body>
+        <style>
+            body{
+    text-align:center;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe7X2WN1XhCC5EG3CvJyC9g2WhbZ_Jy1O6ttRduZH0xUGtKoGTSorbFPlpHuT4T5hAU7g&usqp=CAU);
+    background-size:420px;
+}
+
+h1{
+    color:red;
+}
+body{
+    font-size:20px;
+    color:darkslateblue;
+}
+        </style>
+
+        <script>
+            n= prompt("Enter the number to get table");
+m= prompt("enter the number of rows");
+for(i=1;i<=m;i++)
+{
+    document.write(n+"X"+i+"="+i*n);
+    document.write("<br/>")
+}
+        </script>
+
+</html>
